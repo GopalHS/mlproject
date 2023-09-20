@@ -1,0 +1,18 @@
+Git sync
+setup.py
+requiremnts.txt
+
+if __name__=="__main__":
+    logging.info("Logging has started")
+       
+
+
+if __name__=="__main__":
+
+    try:
+        a=1/0
+    except Exception as e:
+        logging.info("Divide by Zero")
+        raise CustomException(e,sys)  
+
+Note: from src.logger import logging removed src to work the code
