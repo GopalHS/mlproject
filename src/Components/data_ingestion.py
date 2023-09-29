@@ -10,8 +10,8 @@ from dataclasses import dataclass
 from src.Components.data_transformation import DataTransformation
 from src.Components.data_transformation import DataTransformationConfig
 
-from src.components.model_trainer import ModelTrainerConfig
-from src.components.model_trainer import ModelTrainer
+## from src.Components.model_trainer import ModelTrainerConfig
+## from src.Components.model_trainer import ModelTrainer
 
 @dataclass
 class DataIngestionConfig:
